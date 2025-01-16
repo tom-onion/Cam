@@ -1,7 +1,7 @@
 from telegram import update
 from telegram.ext import Application, MessageHandler, filters
 
-const BOT_TOKEN = "8004787294:AAF-kIPH3evTLafLUBFXdHsTnLXLiB0gv3g"; // Replace with your bot token
+const BOT_TOKEN = "8004787294:AAF-kIPH3evTLafLUBFXdHsTnLXLiB0gv3g";
 const API_URL = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
 const API_FILE_URL = `https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto`;
 
